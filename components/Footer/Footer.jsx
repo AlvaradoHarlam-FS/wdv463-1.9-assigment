@@ -5,26 +5,26 @@
     import Link from "next/link";
 
     const NAV__LINK = [
-    {
-        path: "/",
-        display: "Home",
-    },
-    {
-        path: "#about",
-        display: "About",
-    },
-    {
-        path: "#services",
-        display: "Services",
-    },
-    {
-        path: "#portfolio",
-        display: "Portfolio",
-    },
-    {
-        path: "#contact",
-        display: "Contact",
-    },
+            {
+                path: "/",
+                display: "Home",
+            },
+            {
+                path: "../week/Week2",
+                display: "Week2",
+            },
+            {
+                path: "../week/Week3",
+                display: "Week3",
+            },
+            {
+                path: "../week/Week4",
+                display: "Week4",
+            },
+            {
+                path: "#contact",
+                display: "Contact",
+            },
     ];
 
     const Footer = () => {
